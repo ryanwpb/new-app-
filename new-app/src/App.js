@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Welcome from "./components/Welcome"
-import Date from "./components/Date"
+import CurrentDate from "./components/Date"
 
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Welcome/>
-        <Date/>
+        <CurrentDate/>
       </div>
     );
   }
