@@ -4,8 +4,7 @@ class Welcome extends Component{
     return(
       <h2>Hello</h2>
       )
-    
-  }
+    }
   
 }
 
